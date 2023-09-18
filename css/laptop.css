@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    font-family: "Roboto"; sans-serif; 
+    line-height: 1.5;
+    font-weight: 400;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+.bg-grey-1 {
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+}
+
+/* ---------------------------BANNER------------------------ */
+#banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Đưa tên lên banner theo position*/
+.name {
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+/* -----------------------------NAVBAR------------------------- */
+#nav-bar {
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-left: auto; /* Phần này để căn giữa phần tử vào giữa*/
+    margin-right: auto; /* Phần này để căn giữa phần tử vào giữa*/
+    
+}
+.nav i {
+    color: #0099FF;
+}
+nav span {
+    color: #202323;
+    text-transform: uppercase;
+}
+/* Phần nav-name sẽ được giấu đi để làm phần nâng cao chèn hình ảnh*/
+.nav-name {
+    line-height: 1;
+    color: white;
+}
+
+.img-myself {
+    border: rgb(244, 240, 240) solid 0.5;
+    border-radius: 50%;
+    background-color: #e3eaf2;
+    position: absolute;
+    top: -110%;
+    left: 45%;
+}
+/* -----------------------------ABOUT TARGET - INFORMATION------------------------- */
+.about-target {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+.section-title {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.info>li {
+    /* margin-left: 40px; */
+    list-style-type: none;
+    margin-left: -30px;
+}
+.info>li>span{
+    font-weight: 700;
+}
+.icon a {
+    /* margin-top: 20px; */
+    color: #0099FF;
+}
+/* -----------------------------EXPIRIENCE - STUDY - ACTIVITY - HOBBY - LANGUAGE - SKILL------------------------- */
+/* EXPIRIENCE */
+.jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    padding: 10px;
+    columns: 40px;
+}
+
+#job-info >li {
+    color: red;
+}
+.job-title {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding-bottom: 40px;
+    align-items: baseline;
+    justify-content: center;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+/* Tô và bodius cho dòng chữ "Hiện tại"*/
+.now {
+    padding: 2px 5px;
+    background-color: #3333FF;
+    color: white;
+    border-radius: 15%;
+}
+/*ACTIVITY */
+.job-component {
+    border: #d1d4d4 solid 0.5px;
+}
+
+
+.icon {
+    font-size: 30px;
+}
+.job-detail ul li {
+    color:#0099FF;
+}
+.job-detail ul li p {
+    color: black;
+}
+.job-detail ul li p:first-child { /* Phần tử thứ 1 in đậm*/
+    font-weight: 700;
+    
+}
+
+.job-detail ul li p:nth-child(2) { /* Phần tử thứ 2 in nghiêng*/
+  font-style: italic;
+}
+.job-detail li {
+    margin-left: 20px;
+}
+/* HOBBY */
+.job-detail-hobby {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    text-align: center; 
+    color: #0099FF;
+}
+.icon-hobby {
+   
+    border: #2196F3 solid 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* LANGUAGE - SKILL */
+.line {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+.job-detail-skill {
+    line-height: 1px;
+}
+.skill {
+    margin-left: 40px;
+}
+.job-detail-language {
+    line-height: 1px;
+}
+
+/* -----------------------------CERTIFICATE------------------------- */
+.certificates {
+    padding-bottom: 20px;
+} 
+.certificate-detail {
+   padding-bottom: 10px;
+     
+}
+/* .certificates .certificate-detail:first-child {
+    /* border-bottom: #d6c08d solid 0.5px; */
+    border-right: #d6c08d solid 0.5px;
+} */
+
+.certificates .certificate-detail:nth-child(2) {
+    /* border-bottom: #d6c08d solid 0.5px; */
+}
+
+.img-certificate {
+    float: left;
+}
+.text-certificate {
+    line-height: 1;
+  
+}
+
+.line-bottom {
+    border-bottom: #d6c08d solid 0.5px;
+    margin: 5px auto;
+}
+.line-right {
+    border-right: #d6c08d solid 0.5px;
+}
+
+/* -----------------------------PROJECT------------------------- */
+.project-details{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 30px;
+        column-gap: 20px;
+}
+.project-cv {
+    padding: 30px;
+    border: #dddddd solid 1px;
+    font-weight: 600;
+}
+
+.project-icon {
+    padding: 20px;
+    border: #dddddd solid 1px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: #dddddd solid 1px;
+    
+}
+th {
+    width: 30%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+}
+.project-icon {
+    word-spacing: 25px;
+}
+.project-year {
+    padding: 5px 10px;
+    border: #199cdb solid 1px;
+    background-color: #199cdb;
+    border-radius: 16px;
+    color: white;
+}
+
+
+/* -----------------------------FOOTER------------------------- */
+#footer .container {
+    text-align: center;
+    
+   
+}
+.foo {
+    display: inline-block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.icon-footer {
+    color: #199cdb;
+}
+
+/* -----------------------------DIGITAL CV------------------------- */
+.lien-ket {
+    text-decoration: none;
+    color: black;
+}

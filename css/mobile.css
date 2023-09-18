@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    body {
+        font-family: "Roboto"; sans-serif; 
+        line-height: 1.5;
+        font-weight: 400;
+        
+    }
+    /* NAVBAR*/
+	nav a img {
+        display: none;
+    }
+    nav a.nav-name {
+        display: none;
+    }
+    nav a {
+        display: block;
+        text-align: left;
+        padding: 5px;
+    }
+    /* EXPERIENCE - ACTIVITY - STUDY - HOBBY - LANGUAGE - SKILL*/
+    .job-detail-hobby {
+        margin-left: -150px;
+    }
+    .d-flex {
+        display: none;
+    }
+
+    /* display: block cho phần tử dự án*/
+    .project-icon span {
+        display: block;
+        padding: 10px;
+    }
+    .project-year {
+        width: fit-content;
+        height: fit-content;
+        
+    }
+    
+    /* CERTIFICATE*/
+    .certificate-detail {
+        padding-bottom: 10px;
+        border-bottom: #d6c08d solid 0.5px;
+          
+     }
+     .line-bottom {
+        border-bottom: none;
+        margin: 5px auto;
+    }
+    .line-right {
+        border-right: none;
+    }
+    /* FOOTER*/
+    .foo {
+        margin: 10px;
+        
+    }
+}

@@ -1,0 +1,59 @@
+@media (max-width: 992px) {
+	
+	/* NAVBAR*/
+	
+	nav a img {
+        display: none;
+    }
+	nav a {
+		display: inline-block;
+		text-align: center;
+		padding: 14px 30px;
+		text-decoration: none;
+	}
+	nav a.nav-name {
+		display: none;
+	}
+
+	/* TARGET - INFOMATION*/
+	.target {
+		font-size: 32px;
+	}
+
+	.text-certificate{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+ 
+	.hidd {
+		
+	}
+	/* PROJECT*/
+	.project-cv {
+		font-size: 12px;
+	}
+	.project-icon {
+		font-size: 14px;
+	}
+	.project-icon {
+		text-align: left;
+		margin-bottom: 50px;
+		border: #dddddd solid 1px;
+	}
+	.project-year {
+		padding: 2px 10px;
+	}
+	.pro {
+		display: block;
+	}
+	td, th {
+		padding: 0px;
+	}
+
+	/* FOOTER*/
+	.foo {
+		display: inline-block;
+		padding: 20px;
+		
+	}
+}
